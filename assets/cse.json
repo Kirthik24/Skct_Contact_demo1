@@ -1,12 +1,11 @@
-{
-  "contacts": [
+[
     {
-      "name": "p1",
-      "department": "Item 1",
-      "phone": "Description 1"
+      "name": "CSE",
+      "department": "cse",
+      "phone": "786786565"
     },
     {
-      "name": "p1",
+      "name": "ravaladu",
       "department": "Item 1",
       "phone": "Description 1"
     },
@@ -15,5 +14,4 @@
       "department": "Item 1",
       "phone": "Description 1"
     }
-  ]
-}
+]
