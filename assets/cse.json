@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "name": "p1",
+      "department": "Item 1",
+      "phone": "Description 1"
+    },
+    {
+      "name": "p1",
+      "department": "Item 1",
+      "phone": "Description 1"
+    },
+    {
+      "name": "p1",
+      "department": "Item 1",
+      "phone": "Description 1"
+    }
+  ]
+}
