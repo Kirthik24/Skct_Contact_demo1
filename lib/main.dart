@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,18 +13,21 @@ class ContactClass{
   final String name;
   final String department;
   final String phone;
+  final String des;
 
 
   const ContactClass({
     required this.name,
     required this.department,
     required this.phone,
+    required this.des
   });
 
   static ContactClass fromJson(json) => ContactClass(
       name: json['name'],
       department: json['department'],
-      phone: json['phone']);
+      phone: json['phone'],
+      des: json['des']);
 }
 
 class MyApp extends StatelessWidget {
@@ -100,18 +105,29 @@ class _ContactPageState extends State<ContactPage> {
   void initState(){
     super.initState();
 
-    contactsFuture = getContacts(context);
+    contactsFuture = getContacts(context,widget.destination);
   }
 
 
 
-   Future<List<ContactClass>> getContacts(BuildContext context) async{
+   Future<List<ContactClass>> getContacts(BuildContext context,String dept) async{
       final assetBundle = DefaultAssetBundle.of(context);
       final String address = 'assets/${widget.destination}.json';
       final data = await assetBundle.loadString(address);
 
       final body = json.decode(data);
-      return body.map<ContactClass>(ContactClass.fromJson).toList();
+
+      final List<ContactClass> li = body.map<ContactClass>(ContactClass.fromJson).toList();
+      final List<ContactClass> reqLi;
+      reqLi = [];
+      ContactClass item;
+      for(item in li){
+        if(item.department == dept){
+          reqLi.add(item);
+        }
+      }
+
+      return reqLi;
   }
 
   @override
@@ -143,7 +159,7 @@ class _ContactPageState extends State<ContactPage> {
         return Card(
           child: ListTile(
             title: Text(thiscontact.name),
-            subtitle: Text(thiscontact.department),
+            subtitle: Text(thiscontact.des),
             onTap: (){
               Navigator.of(context).push(MaterialPageRoute
                 (builder: (context) => ContactDetails(contact: thiscontact),
@@ -169,7 +185,28 @@ class ContactDetails extends StatelessWidget {
       title: Text(contact.name),
     ),
     body: Center(
-      child: Text(contact.phone),
+      child: Card(
+        child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Text(contact.name),
+              Text(contact.phone),
+              ElevatedButton(
+                child: Text('Copy to Dailer'),
+                onPressed: () async{
+                   launch('tel://${contact.phone}');
+                },
+              ),
+              ElevatedButton(
+                child: Text('Direct Call'),
+                onPressed: () async{
+                  await FlutterPhoneDirectCaller.callNumber(contact.phone);
+                },
+              )
+
+            ]
+        ),
+      )
     ),
   );
 }

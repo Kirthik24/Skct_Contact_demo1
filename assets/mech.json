@@ -1,17 +1,21 @@
 [
   {
-    "name": "MECH",
-    "department": "Item 1",
-    "phone": "Description 1"
+    "name": "Mr.Venkatesh",
+    "department": "mech",
+    "phone": "9488649390",
+    "des": "Assistant Professor"
   },
   {
-    "name": "ravaladu",
-    "department": "Item 1",
-    "phone": "Description 1"
+    "name": "Mrs.G.Poorani",
+    "department": "mech",
+    "phone": "786786565",
+    "des": "Assistant Professor"
   },
   {
-    "name": "p1",
-    "department": "Item 1",
-    "phone": "Description 1"
+    "name": "Mr.Karthik",
+    "department": "mech",
+    "phone": "7823442445",
+    "des": "Professor"
   }
+
 ]

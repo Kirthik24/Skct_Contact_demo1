@@ -1,17 +1,40 @@
 [
-    {
-      "name": "CSE",
-      "department": "cse",
-      "phone": "786786565"
-    },
-    {
-      "name": "ravaladu",
-      "department": "Item 1",
-      "phone": "Description 1"
-    },
-    {
-      "name": "p1",
-      "department": "Item 1",
-      "phone": "Description 1"
-    }
+{
+  "name": "Mr.Venkatesh",
+  "department": "cse",
+  "phone": "9488649390",
+  "des": "Assistant Professor"
+},
+{
+"name": "Mrs.G.Poorani",
+"department": "cse",
+"phone": "786786565",
+"des": "Assistant Professor"
+},
+{
+"name": "Mr.Karthik",
+"department": "cse",
+"phone": "7823442445",
+"des": "Professor"
+},
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "cse",
+    "phone": "9488649390",
+    "des": "Assistant Professor"
+  },
+  {
+    "name": "Mrs.G.Poorani",
+    "department": "cse",
+    "phone": "786786565",
+    "des": "Assistant Professor"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "it",
+    "phone": "7823442445",
+    "des": "Professor"
+  }
+
 ]
