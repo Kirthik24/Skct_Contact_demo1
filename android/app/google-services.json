@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228113303811",
+    "project_id": "skct-contacts",
+    "storage_bucket": "skct-contacts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228113303811:android:36980e2f52130cf6e18136",
+        "android_client_info": {
+          "package_name": "com.example.contact_demo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228113303811-jiig74b4fj4qajlc7jphs6bqpb5p2f4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB63TMbe-BQzOwsKeuA816eSIlBuCRMGi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228113303811-jiig74b4fj4qajlc7jphs6bqpb5p2f4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
