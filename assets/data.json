@@ -1,21 +1,21 @@
 [
     {
       "name": "p1",
-      "department": "cse",
+      "department": "CSE",
       "phone": "Description 1",
       "des": "Assitant Professor",
       "email": "dummyemail.comm"
     },
     {
       "name": "p1",
-      "department": "it",
+      "department": "CSE",
       "phone": "Description 1",
       "des": "Assitant Professor",
       "email": "dummyemail.comm"
     },
     {
       "name": "p1",
-      "department": "mech",
+      "department": "CSE",
       "phone": "Description 1",
       "des": "Assitant Professor",
       "email": "dummyemail.comm"

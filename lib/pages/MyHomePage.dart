@@ -14,7 +14,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<String> depList = ["cse", "it", "ece", "mech"];
+  final List<String> depList = ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL","AI"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
