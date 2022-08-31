@@ -17,7 +17,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   url_launcher: ^6.0.9
   flutter_phone_direct_caller: ^2.0.0
-#  cloud_firestore: ^3.4.6
+  cloud_firestore: ^3.4.6
   firebase_core: ^1.21.1
   firebase_database: ^9.1.3
 
