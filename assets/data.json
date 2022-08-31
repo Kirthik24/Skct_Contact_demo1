@@ -1,0 +1,23 @@
+[
+    {
+      "name": "p1",
+      "department": "cse",
+      "phone": "Description 1",
+      "des": "Assitant Professor",
+      "email": "dummyemail.comm"
+    },
+    {
+      "name": "p1",
+      "department": "it",
+      "phone": "Description 1",
+      "des": "Assitant Professor",
+      "email": "dummyemail.comm"
+    },
+    {
+      "name": "p1",
+      "department": "mech",
+      "phone": "Description 1",
+      "des": "Assitant Professor",
+      "email": "dummyemail.comm"
+    }
+]
