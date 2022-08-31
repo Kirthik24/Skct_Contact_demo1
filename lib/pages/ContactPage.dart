@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../model/ContactClass.dart';
 import 'ContactDetails.dart';
+import 'ContactDetailsV2.dart';
 
 class ContactPage extends StatefulWidget {
   final String destination;
@@ -79,7 +80,7 @@ class _ContactPageState extends State<ContactPage> {
           subtitle: Text(thiscontact.des),
           onTap: (){
             Navigator.of(context).push(MaterialPageRoute
-              (builder: (context) => ContactDetails(contact: thiscontact),
+              (builder: (context) => ContactDetailsV2(contact: thiscontact),
             ));
           },
         ),

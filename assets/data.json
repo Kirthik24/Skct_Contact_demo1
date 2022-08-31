@@ -1,23 +1,23 @@
 [
     {
+      "name": "Mr.Venkatesh",
+      "department": "CSE",
+      "phone": "9894209390",
+      "des": "Assistant Professor",
+      "email": "mrgvnkatesh@skct.edu.in"
+    },
+    {
       "name": "p1",
       "department": "CSE",
       "phone": "Description 1",
-      "des": "Assitant Professor",
+      "des": "Assistant Professor",
       "email": "dummyemail.comm"
     },
     {
       "name": "p1",
       "department": "CSE",
       "phone": "Description 1",
-      "des": "Assitant Professor",
-      "email": "dummyemail.comm"
-    },
-    {
-      "name": "p1",
-      "department": "CSE",
-      "phone": "Description 1",
-      "des": "Assitant Professor",
+      "des": "Assistant Professor",
       "email": "dummyemail.comm"
     }
 ]

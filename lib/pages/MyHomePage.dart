@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'dart:math' as math;
 import 'ContactPage.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -25,6 +25,12 @@ class _MyHomePageState extends State<MyHomePage> {
               elevation: 6,
               margin: const EdgeInsets.all(10),
               child: ListTile(
+                  shape: RoundedRectangleBorder(
+                      side: BorderSide(color: Colors.blue.shade200, width: 0.5),
+                      borderRadius: BorderRadius.circular(5)),
+                  tileColor: Colors.blue.shade400,
+                  textColor: Colors.white,
+                  iconColor: Colors.white,
                   title: Center(
                     child: Text(depList[index].toString()),
                   ),
