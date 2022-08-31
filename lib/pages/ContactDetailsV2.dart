@@ -94,7 +94,24 @@ class ContactDetailsV2 extends StatelessWidget {
                     color: Colors.teal.shade900),
               ),
             ),
-          )
+          ),
+          ElevatedButton.icon(
+            onPressed: () async{
+              // Respond to button press
+              launch('tel://${contact.phone}');
+            },
+            icon: Icon(Icons.copy, size: 18),
+            label: Text("Copy to Dailer"),
+
+          ),
+          ElevatedButton.icon(
+            onPressed: () async{
+              await FlutterPhoneDirectCaller.callNumber(contact.phone);
+            },
+            icon: Icon(Icons.phone_forwarded, size: 18),
+            label: Text("Call"),
+
+          ),
 
 
 
