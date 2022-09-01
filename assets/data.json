@@ -2,22 +2,269 @@
     {
       "name": "Mr.Venkatesh",
       "department": "CSE",
-      "phone": "9894209390",
+      "phone": "9894523926",
       "des": "Assistant Professor",
-      "email": "mrgvnkatesh@skct.edu.in"
+      "email": "venkatesh@skct.edu.in"
     },
     {
-      "name": "p1",
+      "name": "Mrs.G.Poorani",
       "department": "CSE",
-      "phone": "Description 1",
+      "phone": "9488649390",
       "des": "Assistant Professor",
-      "email": "dummyemail.comm"
+      "email": "gpoorani@skct.edu.in"
     },
     {
-      "name": "p1",
+      "name": "Mr.Karthik",
       "department": "CSE",
       "phone": "Description 1",
-      "des": "Assistant Professor",
-      "email": "dummyemail.comm"
-    }
+      "des": "Professor",
+      "email": "karthik@skct.edu.in"
+    },
+
+  {
+    "name": "Mrs.Divya",
+    "department": "CSE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "divya@skct.edu.in"
+  },
+  {
+    "name": "Mrs.Ragunathan",
+    "department": "CSE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "ragunathan@skct.edu.in"
+  },
+  {
+    "name": "Mrs.Anatha Praba",
+    "department": "CSE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "CSE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "CSE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "CSE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "CSE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "CSE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "CSE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "CSE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "CSE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "CSE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "CSE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "CSE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "CSE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+
+
+
+
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "IT",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "IT",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "IT",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "ECE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "ECE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "ECE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+
+  {
+    "name": "Mr.Venkatesh",
+    "department": "EEE",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "EEE",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "EEE",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+  {
+    "name": "Mr.Venkatesh",
+    "department": "MECH",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "MECH",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "MECH",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+  {
+    "name": "Mr.Venkatesh",
+    "department": "CIVIL",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "CIVIL",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "CIVIL",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  },
+  {
+    "name": "Mr.Venkatesh",
+    "department": "AI",
+    "phone": "6380727201",
+    "des": "Assistant Professor",
+    "email": "venkatesh@skct.edu.in"
+  },
+  {
+    "name": "Ms.G.Poorani",
+    "department": "AI",
+    "phone": "9488649390",
+    "des": "Assistant Professor",
+    "email": "gpoorani@skct.edu.in"
+  },
+  {
+    "name": "Mr.Karthik",
+    "department": "AI",
+    "phone": "Description 1",
+    "des": "Professor",
+    "email": "karthik@skct.edu.in"
+  }
+
+
 ]

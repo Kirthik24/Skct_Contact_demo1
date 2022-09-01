@@ -15,7 +15,7 @@ class ContactDetailsV2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    backgroundColor: Colors.teal,
+    backgroundColor: Colors.white,
     // appBar: AppBar(
     //   title: Text(contact.name),
     // ),
@@ -28,7 +28,7 @@ class ContactDetailsV2 extends StatelessWidget {
             fontFamily: 'Poppins',
             fontSize: 30.0,
             fontWeight: FontWeight.w400,
-            color: Colors.white),
+            color: Colors.black),
           ),
 
           Text(contact.des,
@@ -36,14 +36,14 @@ class ContactDetailsV2 extends StatelessWidget {
                 fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 2.5,
-                color: Colors.white),
+                color: Colors.grey),
           ),
 
-          SizedBox(
+          const SizedBox(
             width: 150.0,
             height: 20.0,
             child: Divider(
-              color: Colors.teal.shade100,
+              color: Colors.grey,
             ),
           ),
 
@@ -52,7 +52,7 @@ class ContactDetailsV2 extends StatelessWidget {
         child: ListTile(
           leading: const Icon(
             Icons.account_balance_outlined,
-            color: Colors.teal,
+            color: Colors.blue,
           ),
           title: Text(
             "${contact.department} Department",
@@ -68,7 +68,7 @@ class ContactDetailsV2 extends StatelessWidget {
         child: ListTile(
           leading: const Icon(
             Icons.email,
-            color: Colors.teal,
+            color: Colors.blue,
           ),
           title: Text(
             contact.email,
@@ -84,7 +84,7 @@ class ContactDetailsV2 extends StatelessWidget {
             child: ListTile(
               leading: const Icon(
                 Icons.phone,
-                color: Colors.teal,
+                color: Colors.blue,
               ),
               title: Text(
                 contact.phone,
@@ -95,23 +95,42 @@ class ContactDetailsV2 extends StatelessWidget {
               ),
             ),
           ),
-          ElevatedButton.icon(
-            onPressed: () async{
-              // Respond to button press
-              launch('tel://${contact.phone}');
-            },
-            icon: Icon(Icons.copy, size: 18),
-            label: Text("Copy to Dailer"),
 
-          ),
-          ElevatedButton.icon(
-            onPressed: () async{
-              await FlutterPhoneDirectCaller.callNumber(contact.phone);
-            },
-            icon: Icon(Icons.phone_forwarded, size: 18),
-            label: Text("Call"),
 
+          SizedBox(
+            width: 300.0,
+            height: 45.0,
+            child: ElevatedButton.icon(
+              onPressed: () async{
+                // Respond to button press
+                launch('tel://${contact.phone}');
+              },
+              icon: Icon(Icons.copy, size: 20),
+              label: Text("Copy to Dailer"),
+
+            ),
           ),
+
+          const SizedBox(
+            width: 150.0,
+            height: 20.0,
+            child: Divider(
+              color: Colors.grey,
+            ),
+          ),
+
+         SizedBox(
+        width: 300.0,
+        height: 45.0,
+        child: ElevatedButton.icon(
+        onPressed: () async{
+        await FlutterPhoneDirectCaller.callNumber(contact.phone);
+          },
+          icon: Icon(Icons.phone_forwarded, size: 20),
+        label: Text("Call"),
+          ),
+        ),
+
 
 
 
