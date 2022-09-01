@@ -211,5 +211,213 @@
     "phone": "9994301403",
     "email": "shanmugapriya.g@skct.edu.in",
     "department": "CSE"
+  },
+
+
+  {
+    "name": "Dr. S. Malathy",
+    "des": "Professor",
+    "phone": "9789787465",
+    "email": "malathy.s@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.G.SHANTHI",
+    "des": "Professor",
+    "phone": "9942766429",
+    "email": "shanthi.g@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.K.Muthulakshmi",
+    "des": "Professor",
+    "phone": "8754842992",
+    "email": "muthulakshmi.k@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.N.Sugitha",
+    "des": "Professor",
+    "phone": "9442077420",
+    "email": "",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.P.Jayarajan",
+    "des": "Associate Professor",
+    "phone": "9994449877",
+    "email": "p.jayarajan@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.K.Srinivasan",
+    "des": "Associate Professor",
+    "phone": "9865669610",
+    "email": "k.srinivasan@skct.edu.in ",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.G.Anitha",
+    "des": "Assistant Professor",
+    "phone": "9444817817",
+    "email": "g.anitha@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr. M.Thillai Rani",
+    "des": "Assistant Professor",
+    "phone": "9976550504",
+    "email": "thillairani.m@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Dr.N.Vijayalakshmi",
+    "des": "Assistant Professor",
+    "phone": "9790261222",
+    "email": "vijayalakshmi.n@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Ms. Yamini Shanmugam",
+    "des": "Assistant Professor",
+    "phone": "9787200702",
+    "email": "yaminishanmugam@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Ms.S.Thenmozhi",
+    "des": "Assistant Professor",
+    "phone": "9789224291",
+    "email": "s.thenmozhi@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Mr.G.Santhakumar",
+    "des": "Assistant Professor",
+    "phone": "9952484154",
+    "email": "g.santhakumar@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Ms.S.Jaipriya",
+    "des": "Assistant Professor",
+    "phone": "9488456484",
+    "email": "s.jaipriya@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Ms,B.Priyanka",
+    "des": "Assistant Professor",
+    "phone": "8675238258",
+    "email": "priyanka.b@skct.edu.in",
+    "department": "ECE"
+  },
+  {
+    "name": "Ms.M.Priyatharishini",
+    "des": "Assistant Professor",
+    "phone": "9442763802",
+    "email": "m.priyatharishini@skct.edu.in",
+    "department": "ECE"
+  },
+
+  {
+    "name": "Dr.Lijo Jacob Varghese",
+    "des": "Professor",
+    "phone": "9842254402",
+    "email": "lijojacobvarghese@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.P.Santhosh",
+    "des": "Assistant Professor",
+    "phone": "9360697172",
+    "email": "santhosh.p@skct.edu.in ",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.R.Devi",
+    "des": "Assistant Professor ",
+    "phone": "9488441610",
+    "email": "devi.r@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.S.Saravanan",
+    "des": "Assistant Professor ",
+    "phone": "8072198296",
+    "email": "saravanan.s@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.K.P.Suresh",
+    "des": "Assistant Professor ",
+    "phone": "9715557330",
+    "email": "sureshkp@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.R.Senthilkumar",
+    "des": "Assistant Professor ",
+    "phone": "9003395360",
+    "email": "senthilkumar.r@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.C.Sakthigokulrajan",
+    "des": "Assistant Professor ",
+    "phone": "9488039752",
+    "email": "sakthigokulrajan.c@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Dr.K.Prithivi",
+    "des": "Assistant Professor ",
+    "phone": "9942033301",
+    "email": "prithivi.k@skct.edu.in ",
+    "department": "EEE"
+  },
+  {
+    "name": "Ms.A.Elakya",
+    "des": "Assistant Professor ",
+    "phone": "9578981476",
+    "email": "a.elakkiya@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Ms.G.Sukanya",
+    "des": "Assistant Professor ",
+    "phone": "6382435972",
+    "email": "g.sukanya@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Ms.V.Manimegalai",
+    "des": "Assistant Professor ",
+    "phone": "9940818424",
+    "email": "manimegalai.v@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Mr.P.Leninpugalhanthi",
+    "des": "Assistant Professor ",
+    "phone": "9629458595",
+    "email": "leninpugal@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Mr.T.Bharaniprakash",
+    "des": "Assistant Professor ",
+    "phone": "9750894448",
+    "email": "bharaniprakash.t@skct.edu.in",
+    "department": "EEE"
+  },
+  {
+    "name": "Ms.D.Magdalin Mary",
+    "des": "Assistant Professor ",
+    "phone": "9600545591",
+    "email": "magdalinmary.d@skct.edu.in",
+    "department": "EEE"
   }
+
+
 ]
