@@ -1,4 +1,13 @@
 [
+
+  {
+    "name": "Skct",
+    "des": "Office",
+    "phone": "04222984567",
+    "email": "info@skct.edu.in",
+    "department": "OFFICE"
+  },
+
   {
     "name": "Dr.I.Padmanaban",
     "des": "Professor and Head",
@@ -638,6 +647,348 @@
     "phone": "9489482200",
     "email": "prof.kirthika@gmail.com",
     "department": "L&D"
+  },
+
+  {
+    "name": "Dr.N.Nirmala devi",
+    "des": "Professor & Head",
+    "phone": "9942235426",
+    "email": "nirmaladevi.n@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "Dr.P.Shanmugha priya ",
+    "des": "Associate Professor",
+    "phone": "9994251264",
+    "email": "shanmughapriya.p@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "Dr.AJafersadhiq",
+    "des": "Associate Professor",
+    "phone": "9655628346",
+    "email": "jafersadhiq.a@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "R.Saravanan",
+    "des": "Assistant Professor",
+    "phone": "9048760430",
+    "email": "saravanan.r@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "P.Thennarasi",
+    "des": "Assistant Professor",
+    "phone": "9894297986",
+    "email": "thennarasi.p@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "K.Monisha",
+    "des": "Assistant Professor",
+    "phone": "8754935095",
+    "email": "monisha.k@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "A.Karthikeyan",
+    "des": "Assistant Professor",
+    "phone": "9750516255",
+    "email": "karthikeyan.a@skct.edu.in",
+    "department": "MBA"
+  },
+  {
+    "name": "Dr.M.Punitha",
+    "des": "Assistant Professor",
+    "phone": "9362293722",
+    "email": "punitha.m@skct.edu.in",
+    "department": "MBA"
+  },
+
+  {
+    "name": "Dr. P. Prathap",
+    "des": "Professor and Head",
+    "phone": "9894196974",
+    "email": "prathap.p@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr. S. Sundararaj",
+    "des": "Professor ",
+    "phone": "9842799736",
+    "email": "s.sundararaj@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr. R. Srinivasan",
+    "des": "Professor",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr. N. Mohan Raj",
+    "des": "Associate Professor",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr. S. Santhosh",
+    "des": "Associate Professor",
+    "phone": "7810010886",
+    "email": "santhosh.s@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr. P. Sakthivel",
+    "des": "Associate Professor ",
+    "phone": "9842982689",
+    "email": "sakthivel.p@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr.V.Karthickeyan",
+    "des": "Associate Professor ",
+    "phone": "9952709197",
+    "email": "karthickeyan.v@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr.P.Harihara Sakthi Sudhan",
+    "des": "Associate Professor ",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Dr.M.Varatharajulu",
+    "des": "Associate Professor ",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr. K. Mohan",
+    "des": "Assistant Professor",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr. S. Ram Kumar",
+    "des": "Assistant Professor",
+    "phone": "9698491952",
+    "email": "ramkumar.s@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr. K. S. Raghul",
+    "des": "Assistant Professor",
+    "phone": "9585174466",
+    "email": "raghul.ks@skct.edu.in ",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr. M. Rajeswaran",
+    "des": "Assistant Professor",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr.T.Nithyanandhan",
+    "des": "Assistant Professor",
+    "phone": "8547626541",
+    "email": "nithyanandhan.t@skct.edu.in",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr. K. Senthil Kumar",
+    "des": "Assistant Professor",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+  {
+    "name": "Mr. A. S. Manirathnam",
+    "des": "Assistant Professor",
+    "phone": "not found",
+    "email": "not found",
+    "department": "MECH"
+  },
+
+
+
+  {
+    "name": "R.Shanthamani",
+    "des": "Associate Professor",
+    "phone": "9244421705",
+    "email": "r.shanthamani@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr.K.R.Kanimozhi",
+    "des": "Associate Professor ",
+    "phone": "9842453492",
+    "email": "k.r.kanimozhi@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.P.Sheeba Ranjini",
+    "des": "Assistant Professor",
+    "phone": "9442424068",
+    "email": "sheebaranjini.p@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr D Santhosh Shanthakumar",
+    "des": "Assistant Professor",
+    "phone": "9626273652",
+    "email": "d.santhoshshanthakumar@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms. L. Gomathy",
+    "des": "Assistant Professor",
+    "phone": "8680891182",
+    "email": "l.gomathy@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.N.Leelavathi",
+    "des": "Assistant Professor",
+    "phone": "9942675337",
+    "email": "n.leelavathi@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Mr.Karthik.S",
+    "des": "Assistant Professor",
+    "phone": "9443236558",
+    "email": "karthik.s@skct.edu.in ",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.B.Haripriya",
+    "des": "Assistant Professor ",
+    "phone": "9843719019",
+    "email": "b.haripriya@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.R.Vakithabegam ",
+    "des": "Assistant Professor ",
+    "phone": "8667877830",
+    "email": "r.vakithabegam@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr.V.Parimala",
+    "des": "Assistant Professor",
+    "phone": "9629122589",
+    "email": "v.parimala@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr. D. Vasantha kumari",
+    "des": "Assistant professor",
+    "phone": "9944482809",
+    "email": "d.vasanthakumari@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr.N.Nalini ",
+    "des": "Assistant professor",
+    "phone": "9487733364",
+    "email": "n.nalini@skct.edu.in ",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.S.S.Sabithamala ",
+    "des": "Assistant Professor ",
+    "phone": "9360548573",
+    "email": "s.s.sabithamala@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.K.Shanthi",
+    "des": "Assistant Professor ",
+    "phone": "7010176002",
+    "email": "shanthi.k@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr.R.Ganesh",
+    "des": "Assistant Professor ",
+    "phone": "8778758221",
+    "email": "ganesh.r@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr.V.Manikandan",
+    "des": "Assistant Professor ",
+    "phone": "8610201013",
+    "email": "manikandan.v@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Mr.V.Marianandhakumar",
+    "des": "Assistant Professor ",
+    "phone": "9965137566",
+    "email": "v.marianandhakumar@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Mr.D.Maheskumar",
+    "des": "Assistant Professor ",
+    "phone": "9790511101",
+    "email": "maheskumar.d@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.B.Lavanya",
+    "des": "Assistant Professor ",
+    "phone": "9942376015",
+    "email": "b.lavanya@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.A.Sujipriya ",
+    "des": "Assistant Professor ",
+    "phone": "9677320078",
+    "email": "a.sujipriya@skct.edu.in ",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms.S.Santhiya",
+    "des": "Assistant Professor",
+    "phone": "9944620310",
+    "email": "santhiya.s@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Ms B Pavithra ",
+    "des": "Assistant Professor ",
+    "phone": "9042699579",
+    "email": "pavithra.b@skct.edu.in",
+    "department": "S&H"
+  },
+  {
+    "name": "Dr. N. Venugopal",
+    "des": "Assoicate Professor",
+    "phone": "9688748345",
+    "email": "venugopal.n@skct.edu.in",
+    "department": "S&H"
+  },
+
+  {
+    "name": "Mr.C.Mariselvam",
+    "des": "Director of Physical Education ",
+    "phone": "9791666634",
+    "email": "c.mariselvam@skct.edu.in",
+    "department": "PHY EDU"
   }
 
 
