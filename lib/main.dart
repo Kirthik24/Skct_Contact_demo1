@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:contact_demo2/pages/MyHomePage.dart';
+import 'package:contact_demo2/pages/MyHomePageV2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'skct'),
+      home: const MyHomePageV2(),
     );
   }
 }
