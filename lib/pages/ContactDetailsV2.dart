@@ -23,13 +23,16 @@ class ContactDetailsV2 extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(contact.name,
+          Center(
+              child: Text(contact.name,
         style: const TextStyle(
-            fontFamily: 'Poppins',
-            fontSize: 30.0,
-            fontWeight: FontWeight.w400,
-            color: Colors.black),
-          ),
+                fontFamily: 'Poppins',
+                fontSize: 30.0,
+                fontWeight: FontWeight.w400,
+                color: Colors.black),
+              ),
+            ),
+
 
           Text(contact.des,
             style: const TextStyle(
@@ -96,44 +99,64 @@ class ContactDetailsV2 extends StatelessWidget {
             ),
           ),
 
-
-          SizedBox(
-            width: 300.0,
-            height: 45.0,
-            child: ElevatedButton.icon(
-              onPressed: () async{
-                // Respond to button press
-                launch('tel://${contact.phone}');
-              },
-              icon: Icon(Icons.copy, size: 20),
-              label: Text("Copy to Dailer"),
-
+          Padding(
+            padding: const EdgeInsets.fromLTRB(5, 10, 5, 10),
+            child: Container(
+              width: 300.0,
+              height: 50.0,
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  gradient: LinearGradient(colors: [Color(0xFF0061ff), Color(0xFF60efff)])),
+              child: ElevatedButton.icon(
+                onPressed: () async{
+                  // Respond to button press
+                  final Uri url = Uri.parse('tel://${contact.phone}');
+                  launchUrl(url);
+                },
+                style: ElevatedButton.styleFrom(primary: Colors.transparent, shadowColor: Colors.transparent),
+                icon: const Icon(Icons.copy, size: 20),
+                label: const Text("Copy to Dialer"),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(5, 10, 5, 10),
+            child: Container(
+              width: 300.0,
+              height: 50.0,
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  gradient: LinearGradient(colors: [Color(0xFF38b000), Color(0xFFccff33)])),
+              child: ElevatedButton.icon(
+                onPressed: () async{
+                  await FlutterPhoneDirectCaller.callNumber(contact.phone);
+                },
+                style: ElevatedButton.styleFrom(primary: Colors.transparent, shadowColor: Colors.transparent),
+                  icon: const Icon(Icons.phone_forwarded, size: 20),
+                  label: const Text("Call"),
+              ),
             ),
           ),
 
-          const SizedBox(
-            width: 150.0,
-            height: 20.0,
-            child: Divider(
-              color: Colors.grey,
+          Padding(
+            padding: const EdgeInsets.fromLTRB(5, 10, 5, 10),
+            child: Container(
+              width: 300.0,
+              height: 50.0,
+              decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  gradient: LinearGradient(colors: [Color(0xFFd02224), Color(0xFFf1a7a9)])),
+              child: ElevatedButton.icon(
+                onPressed: () async{
+                  final Uri mail = Uri.parse('mailto:${contact.email}');
+                  launchUrl(mail);
+                },
+                style: ElevatedButton.styleFrom(primary: Colors.transparent, shadowColor: Colors.transparent),
+                icon: const Icon(Icons.mail_outline, size: 20),
+                label: const Text("Mail"),
+              ),
             ),
-          ),
-
-         SizedBox(
-            width: 300.0,
-            height: 45.0,
-          child: ElevatedButton.icon(
-              onPressed: () async{
-              await FlutterPhoneDirectCaller.callNumber(contact.phone);
-              },
-              icon: Icon(Icons.phone_forwarded, size: 20),
-              label: Text("Call"),
-          ),
-        ),
-
-
-
-
+          )
         ],
       ),
     ),
