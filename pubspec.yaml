@@ -33,6 +33,7 @@ flutter:
 
   assets:
     - assets/data.json
+    - assets/skctpng.png
   fonts:
     - family: Poppins
       fonts:
