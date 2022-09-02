@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../model/ContactClass.dart';
-import 'ContactDetails.dart';
+import 'old/ContactDetails.dart';
 import 'ContactDetailsV2.dart';
 
 class ContactPage extends StatefulWidget {
