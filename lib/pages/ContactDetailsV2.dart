@@ -120,14 +120,14 @@ class ContactDetailsV2 extends StatelessWidget {
           ),
 
          SizedBox(
-        width: 300.0,
-        height: 45.0,
-        child: ElevatedButton.icon(
-        onPressed: () async{
-        await FlutterPhoneDirectCaller.callNumber(contact.phone);
-          },
-          icon: Icon(Icons.phone_forwarded, size: 20),
-        label: Text("Call"),
+            width: 300.0,
+            height: 45.0,
+          child: ElevatedButton.icon(
+              onPressed: () async{
+              await FlutterPhoneDirectCaller.callNumber(contact.phone);
+              },
+              icon: Icon(Icons.phone_forwarded, size: 20),
+              label: Text("Call"),
           ),
         ),
 

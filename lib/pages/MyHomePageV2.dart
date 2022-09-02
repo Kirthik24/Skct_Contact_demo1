@@ -19,19 +19,19 @@ class _MyHomePageV2State extends State<MyHomePageV2> {
         child: Column(
           children: [
             Container(
-              height: 150,
+              height: 80,
               child: Row(
                 children: [
                   Container(
-                    width:130,
+                    width:60,
                       child: Image.asset('assets/skctpng.png')),
                   const Expanded(
                       child:Padding(
-                        padding: EdgeInsets.all(8.0),
+                        padding: EdgeInsets.fromLTRB(5, 0, 5, 1),
                         child: Text("Sri Krishna College of Technology",
                     style: TextStyle(
                           fontFamily: 'Poppins',
-                          fontSize: 17.0,
+                          fontSize: 15.0,
                           fontWeight: FontWeight.w400,
                           color: Colors.black),
                   ),
@@ -40,8 +40,8 @@ class _MyHomePageV2State extends State<MyHomePageV2> {
               ),
             ),
             const SizedBox(
-              width: 150.0,
-              height: 10.0,
+              width: 200.0,
+              height: 3.0,
               child: Divider(
                 color: Colors.grey,
               ),
@@ -53,6 +53,16 @@ class _MyHomePageV2State extends State<MyHomePageV2> {
                       fontSize: 16.0,
                       letterSpacing: 0.5,
                       color: Colors.black)),
+            ),
+            const Padding(
+              padding: EdgeInsets.fromLTRB(0,0,0,5),
+              child: SizedBox(
+                width: 200.0,
+                height: 5.0,
+                child: Divider(
+                  color: Colors.grey,
+                ),
+              ),
             ),
             Expanded(
                 child: ListView.builder(
