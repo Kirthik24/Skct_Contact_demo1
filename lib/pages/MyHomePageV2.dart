@@ -21,20 +21,19 @@ class _MyHomePageV2State extends State<MyHomePageV2> {
             Container(
               height: 80,
               child: Row(
-                children: [
-                  Container(
-                    width:60,
-                      child: Image.asset('assets/skctpng.png')),
-                  const Expanded(
+                children: const [
+                  Expanded(
                       child:Padding(
                         padding: EdgeInsets.fromLTRB(5, 0, 5, 1),
-                        child: Text("Sri Krishna College of Technology",
+                        child: Center(
+                          child: Text("Sri Krishna College of Technology",
                     style: TextStyle(
-                          fontFamily: 'Poppins',
-                          fontSize: 15.0,
-                          fontWeight: FontWeight.w400,
-                          color: Colors.black),
+                            fontFamily: 'Poppins',
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.w400,
+                            color: Colors.black),
                   ),
+                        ),
                       ) )
                 ],
               ),
@@ -78,7 +77,11 @@ class _MyHomePageV2State extends State<MyHomePageV2> {
                         textColor: Colors.white,
                         iconColor: Colors.white,
                         title: Center(
-                          child: Text(depList[index].toString()),
+                          child: Text(depList[index].toString(),
+                            style: const TextStyle(
+                                fontFamily: 'Poppins',
+                                fontWeight: FontWeight.w100,
+                                color: Colors.white),),
                         ),
                         onTap: () {
                           Navigator.push(
