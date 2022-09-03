@@ -1,12 +1,47 @@
 [
+  {
+    "name": "Dr. S. Maragatham",
+    "des": "Principal",
+    "phone": "9344157946",
+    "email": "principal@skct.edu.in",
+    "department": "ADMINISTRATION"
+  },
 
   {
-    "name": "Skct",
-    "des": "Office",
+    "name": "Dr. R. Rameshkumar",
+    "des": "Dean Administration",
+    "phone": "8300034477",
+    "email": "deanadmin@skct.edu.in",
+    "department": "ADMINISTRATION"
+  },
+
+  {
+    "name": "Dr. Manju P",
+    "des": "Dean Academics and Student Affairs",
+    "phone": "7708894898",
+    "email": "dean_academics@skct.edu.in",
+    "department": "ADMINISTRATION"
+  },
+
+  {
+    "name": "Office",
+    "des": "SKCT - Office",
     "phone": "04222984567",
     "email": "info@skct.edu.in",
-    "department": "OFFICE"
+    "department": "ADMINISTRATION"
   },
+
+
+
+
+
+
+
+
+
+
+
+
 
   {
     "name": "Dr.I.Padmanaban",
@@ -723,14 +758,14 @@
   {
     "name": "Dr. R. Srinivasan",
     "des": "Professor",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "9444201734",
+    "email": "r.srinivasan@skct.edu.in",
     "department": "MECH"
   },
   {
     "name": "Dr. N. Mohan Raj",
     "des": "Associate Professor",
-    "phone": "not found",
+    "phone": "9994750670",
     "email": "not found",
     "department": "MECH"
   },
@@ -758,22 +793,22 @@
   {
     "name": "Dr.P.Harihara Sakthi Sudhan",
     "des": "Associate Professor ",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "8754107398",
+    "email": "hariharasakthisudhan.p@skct.edu.in",
     "department": "MECH"
   },
   {
     "name": "Dr.M.Varatharajulu",
     "des": "Associate Professor ",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "9344327573",
+    "email": "varatharajulu.m@skct.edu.in",
     "department": "MECH"
   },
   {
     "name": "Mr. K. Mohan",
     "des": "Assistant Professor",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "9788110339",
+    "email": "mohan.k@skct.edu.in",
     "department": "MECH"
   },
   {
@@ -793,8 +828,8 @@
   {
     "name": "Mr. M. Rajeswaran",
     "des": "Assistant Professor",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "9677411447",
+    "email": "rajeswaran.m@skct.edu.in",
     "department": "MECH"
   },
   {
@@ -807,15 +842,15 @@
   {
     "name": "Mr. K. Senthil Kumar",
     "des": "Assistant Professor",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "9894790616",
+    "email": "senthilkumar.k@skct.edu.in",
     "department": "MECH"
   },
   {
     "name": "Mr. A. S. Manirathnam",
     "des": "Assistant Professor",
-    "phone": "not found",
-    "email": "not found",
+    "phone": "9500570919",
+    "email": "manirathnam.as@skct.edu.in",
     "department": "MECH"
   },
 
@@ -985,7 +1020,7 @@
 
   {
     "name": "Mr.C.Mariselvam",
-    "des": "Director of Physical Education ",
+    "des": "Director of Physical Education",
     "phone": "9791666634",
     "email": "c.mariselvam@skct.edu.in",
     "department": "PHY EDU"

@@ -26,6 +26,7 @@ dependencies:
   font_awesome_flutter: ^10.1.0
   provider: ^6.0.3
 
+  flutter_native_splash: ^2.2.8
 
 dev_dependencies:
   flutter_test:
@@ -45,3 +46,16 @@ flutter:
           style: italic
 
 
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#ffffff"
+  image: assets/skctpng.png
+  image_dark: assets/skctpng.png
+  branding_dark: assets/skctpng.png
+
+  android_12:
+    color:  "#ffffff"
+    color_dark: "#ffffff"
+    branding: assets/skctpng.png
+    image_dark: assets/skctpng.png
+    image: assets/skctpng.png

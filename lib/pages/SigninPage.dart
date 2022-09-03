@@ -37,12 +37,10 @@ class _SigninPageState extends State<SigninPage> {
           child: const Text("Google SignIn"),
           onPressed: (){
            Future<UserCredential> user = signInWithGoogle();
-           if(user != null){
-             Navigator.push(
-               context,
-               MaterialPageRoute(builder: (context) => const MyHomePageV2()),
-             );
-           }
+           Navigator.push(
+             context,
+             MaterialPageRoute(builder: (context) => const MyHomePageV2()),
+           );
 
           },
         ),
