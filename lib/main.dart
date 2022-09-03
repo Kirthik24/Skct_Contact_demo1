@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:contact_demo2/pages/SigninPage.dart';
 import 'package:contact_demo2/pages/old/MyHomePage.dart';
 import 'package:contact_demo2/pages/MyHomePageV2.dart';
 import 'package:flutter/material.dart';
@@ -27,10 +28,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePageV2(),
+      home: const SigninPage(),
     );
   }
-}
+} 
 
 
 

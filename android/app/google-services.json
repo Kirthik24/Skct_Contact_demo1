@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "228113303811",
+    "firebase_url": "https://skct-contacts-default-rtdb.firebaseio.com",
     "project_id": "skct-contacts",
     "storage_bucket": "skct-contacts.appspot.com"
   },
