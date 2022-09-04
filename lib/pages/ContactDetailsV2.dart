@@ -100,12 +100,12 @@ class ContactDetailsV2 extends StatelessWidget {
           ),
 
           Padding(
-            padding: const EdgeInsets.fromLTRB(5, 10, 5, 10),
+            padding: const EdgeInsets.fromLTRB(5, 15, 5, 10),
             child: Container(
               width: 300.0,
               height: 50.0,
               decoration: const BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  borderRadius: BorderRadius.all(Radius.circular(15)),
                   gradient: LinearGradient(colors: [Color(0xFF0061ff), Color(0xFF60efff)])),
               child: ElevatedButton.icon(
                 onPressed: () async{
@@ -115,7 +115,11 @@ class ContactDetailsV2 extends StatelessWidget {
                 },
                 style: ElevatedButton.styleFrom(primary: Colors.transparent, shadowColor: Colors.transparent),
                 icon: const Icon(Icons.copy, size: 20),
-                label: const Text("Copy to Dialer"),
+                label: const Text("Copy to Dialer",
+                style: TextStyle(
+                  fontSize: 15
+                ),
+                ),
               ),
             ),
           ),
@@ -125,7 +129,7 @@ class ContactDetailsV2 extends StatelessWidget {
               width: 300.0,
               height: 50.0,
               decoration: const BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  borderRadius: BorderRadius.all(Radius.circular(15)),
                   gradient: LinearGradient(colors: [Color(0xFF38b000), Color(0xFFccff33)])),
               child: ElevatedButton.icon(
                 onPressed: () async{
@@ -133,7 +137,10 @@ class ContactDetailsV2 extends StatelessWidget {
                 },
                 style: ElevatedButton.styleFrom(primary: Colors.transparent, shadowColor: Colors.transparent),
                   icon: const Icon(Icons.phone_forwarded, size: 20),
-                  label: const Text("Call"),
+                  label: const Text("Call",
+                    style: TextStyle(
+                        fontSize: 15
+                    ),),
               ),
             ),
           ),
@@ -144,7 +151,7 @@ class ContactDetailsV2 extends StatelessWidget {
               width: 300.0,
               height: 50.0,
               decoration: const BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  borderRadius: BorderRadius.all(Radius.circular(15)),
                   gradient: LinearGradient(colors: [Color(0xFFd02224), Color(0xFFf1a7a9)])),
               child: ElevatedButton.icon(
                 onPressed: () async{
@@ -153,7 +160,10 @@ class ContactDetailsV2 extends StatelessWidget {
                 },
                 style: ElevatedButton.styleFrom(primary: Colors.transparent, shadowColor: Colors.transparent),
                 icon: const Icon(Icons.mail_outline, size: 20),
-                label: const Text("Mail"),
+                label: const Text("Mail",
+                  style: TextStyle(
+                      fontSize: 15
+                  ),),
               ),
             ),
           )

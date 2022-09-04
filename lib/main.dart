@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
       title: 'Contacts',
       home: SplashScreen(
           seconds: 2,
-          navigateAfterSeconds:SigninPage(),
+          navigateAfterSeconds:firstWidget,
           title: const Text(
             'SKCT Contacts',
             style: TextStyle(

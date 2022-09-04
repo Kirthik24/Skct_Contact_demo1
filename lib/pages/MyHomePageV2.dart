@@ -79,8 +79,8 @@ class _MyHomePageV2State extends State<MyHomePageV2> {
                         title: Center(
                           child: Text(depList[index].toString(),
                             style: const TextStyle(
-                                fontFamily: 'Poppins',
-                                fontWeight: FontWeight.w100,
+                                fontFamily: 'SFProDisplay',
+                                fontWeight: FontWeight.bold,
                                 color: Colors.white),),
                         ),
                         onTap: () {
