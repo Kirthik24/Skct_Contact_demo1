@@ -1,3 +1,4 @@
+import 'package:contact_demo2/firebase_options.dart';
 import 'package:contact_demo2/pages/MyHomePageV2.dart';
 import 'package:contact_demo2/pages/SigninPage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -7,7 +8,7 @@ import 'package:splashscreen/splashscreen.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(MyApp());
 }
 
