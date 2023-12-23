@@ -5,17 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:splashscreen/splashscreen.dart';
 
-Future main() async{
+Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
-
-
 class MyApp extends StatelessWidget {
-   MyApp({Key? key}) : super(key: key);
-
+  MyApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -36,31 +33,21 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Contacts',
       home: SplashScreen(
-          seconds: 2,
-          navigateAfterSeconds:firstWidget,
-          title: const Text(
-            'SKCT Contacts',
-            style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontFamily: 'SFProDisplay',
-                fontSize: 20.0,
-                color: Colors.black),
-          ),
-          image: Image.asset('assets/skctpng.png'),
-          photoSize: 100.0,
-          backgroundColor: Colors.white,
-          styleTextUnderTheLoader: const TextStyle(),
-          loaderColor: Colors.blue
+        seconds: 2,
+        navigateAfterSeconds: firstWidget,
+        title: const Text(
+          'SKCT Contacts',
+          style: TextStyle(fontWeight: FontWeight.bold, fontFamily: 'SFProDisplay', fontSize: 20.0, color: Colors.black),
+        ),
+        image: Image.asset('assets/skctpng.png'),
+        photoSize: 100.0,
+        backgroundColor: Colors.white,
+        styleTextUnderTheLoader: const TextStyle(),
+        loaderColor: Colors.blue,
+        loadingText: Text("Please wait..."),
+        loadingTextPadding: EdgeInsets.all(8.0),
+        useLoader: false,
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
